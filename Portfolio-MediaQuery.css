@@ -1,0 +1,37 @@
+@media (min-width:0px) and (max-width:479px) {
+   body{
+    box-sizing: border-box;
+    width:100vw;
+    padding:0px;
+    margin:0px;
+    padding-right:0px;
+    display:flex;
+    left:0px;
+    right:0px;
+   }
+.section1{
+  display:flex;
+  left:0px;
+  right:0px;
+width:100vw;
+  padding:0px;
+  margin:0px;
+ 
+    }
+    
+    
+    .section1 img{
+    display:none;
+    margin:0px;
+    padding:0px;
+}
+
+.sec1para{
+  text-align:center;
+  margin:0%;
+  padding:0%;
+  font-size:20px;
+  padding-left:0px;
+  margin-top:0px;
+}
+}

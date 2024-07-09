@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .navbar
+    {
+        display: inline-flex;
+        flex-direction: row;
+        position: sticky;
+       display:flex; 
+       z-index: 1;
+       width: 100vw;
+        top:0px;
+        left:0px;
+        right: 0px;
+    }
+    .navbar::before
+
+    {
+       position: absolute;
+        background-color: black;
+        content: " ";
+        width:100vw;
+        height: 100%;
+        opacity: 0.75;
+        z-index: -1;
+    }
+
+    
+
+    .navbar img{
+        width: 70px;
+        height: 70px;
+        border-radius:8px;
+       padding: 4px 4px;
+    }
+
+    li
+    {
+        list-style: none;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+     margin:7px 5px;
+     padding: 4px 9px;
+     border-radius: 5px;
+    
+   
+    }
+
+    .navbar a{
+        color: white;
+        list-style: none;
+        text-decoration: none;
+       margin-top: 8px;
+     
+
+    }
+
+    .navbar li:hover{
+        background-color: wheat;
+    color: purple;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="navbar">
+   <img src="./logo.png" alt="Company's Logo">       
+<a href=""><li class="navbutton">Home</li></a>
+<a href=""><li class="navbutton">Menu</li></a>
+<a href=""><li class="navbutton">Services</li></a>
+<a href=""><li class="navbutton">About Us</li></a>
+<a href=""><li class="navbutton">Contact Us</li></a>
+        </div>
+    </div>
+</body>
+</html>
